@@ -1,0 +1,101 @@
+body, html {
+  background-color: #141316;
+  font-family: 'Ubuntu Mono', monospace;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 4.5rem;
+}
+
+h3 {
+  font-size: 4rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+h5 {
+  font-size: 2.5rem;
+  margin: 10px;
+}
+
+h6 {
+  font-size: 2rem;
+}
+
+p {
+  color:rgb(228, 220, 220);
+  font-size: 1.3rem;
+}
+
+a {
+  color: #332042;
+  text-decoration: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.title {
+  color: #f6f6f6;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+
+.play {
+  padding-top: 50px;
+}
+
+.created-by {
+  color: #f6f6f6;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.playBtn {
+  background-image: url('../assets/backgrounds/bg-night.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 225px;
+  color: aqua;
+  text-emphasis-color: radial-gradient(circle, rgba(83,78,168,1) 9%, rgba(9,9,121,1) 47%, rgba(0,212,255,1) 99%);
+  padding-bottom: 30px;
+  padding-top: 30px;
+  width: 25%;
+}
+
+.playBtn:hover {
+  transform: scale(1.15);
+  transition: .5s ease;
+}
+
+#game {
+  position: relative;
+}
+
+/* GAME OVER SCREEN */
+#gameOver, #gameEnd {
+  background-color: rgba(10, 10, 10, 0.5);
+  color: rgb(228, 220, 220);
+  font-size: 5rem;
+  padding-bottom: 50px;
+  position: absolute;
+  top: 350px;
+  text-align: center;
+  width: 100%;
+}
